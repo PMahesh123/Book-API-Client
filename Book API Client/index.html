@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book API Client</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book Management API Client</h1>
+        
+        <div class="section">
+            <h2>Get All Books</h2>
+            <button id="getBooks">Get Books</button>
+            <div id="booksList"></div>
+        </div>
+        
+        <div class="section">
+            <h2>Add New Book</h2>
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="author" placeholder="Author">
+            <button id="addBook">Add Book</button>
+        </div>
+        
+        <div class="section">
+            <h2>Update Book</h2>
+            <input type="text" id="updateId" placeholder="Book ID">
+            <input type="text" id="updateTitle" placeholder="New Title">
+            <input type="text" id="updateAuthor" placeholder="New Author">
+            <button id="updateBook">Update Book</button>
+        </div>
+        
+        <div class="section">
+            <h2>Delete Book</h2>
+            <input type="text" id="deleteId" placeholder="Book ID">
+            <button id="deleteBook">Delete Book</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
